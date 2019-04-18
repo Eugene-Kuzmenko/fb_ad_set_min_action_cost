@@ -7,7 +7,7 @@
 - 2 hours: Making a part of the program what would analyze retrieved data and handle input parameters
 
 ## Usage
-- You need to create `env.py` with following attributes
+- You need to create `env.py` and insert there following attributes
 ```
 ACCESS_TOKEN = "insert access token here"
 CAMPAIGN_ID = "insert campaign id"
