@@ -3,11 +3,11 @@ from facebook_business.adobjects.campaign import Campaign
 
 import sys
 
-from env import ACCESS_TOKEN
+from env import ACCESS_TOKEN, CAMPAIGN_ID
 
 FacebookAdsApi.init(access_token=ACCESS_TOKEN)
 
-campaign = Campaign(fbid='23842578662850026')
+campaign = Campaign(fbid=CAMPAIGN_ID)
 
 ad_sets = campaign.get_ad_sets(fields=['name'])
 
